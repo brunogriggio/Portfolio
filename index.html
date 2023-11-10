@@ -6,23 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Abaixo, fonte do icone de flecha pra baixo -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header>
         <h1>Bruno Griggio</h1>
-        <p>Desenvolvedor Front-End</p>
+        <p class="paragrafo_princ">Desenvolvedor Front-End</p>
         <a href="">
             <button>Download CV</button>
         </a>
         <a href="https://github.com/brunogriggio" target="_blank">
             <button>GitHub</button>
         </a>
-        <a href="">
-            <button>Entrar em contato</button>
-        </a>
+        <div id="lista_contato">
+            <input id="showMenu" type="button" value="Entre em contato">
+        </div>
+        <div id="nav">
+            <input id="hideMenu" type="button" value="fechar">
+        </div>
+
+        <!-- <ul style="color: white;">
+            <button class="btn_contato">Entre em contato
+                <li>awqui</li>
+                <span class="material-symbols-outlined md-48">arrow_drop_down</span>
+            </button>
+        </ul> -->
+        
         <div>
             <img src="imagens/1692385560047.jpg" alt="Imagem de perfil" class="img_perfil">
         </div>
     </header>
+    <script>
+        lista_botao = [watts, Email]
+            console.log(lista_botao);
+        var nav = document.getElementById("nav");
+        var showMenu = document.getElementById("showMenu");
+        var hideMenu = document.getElementById("hideMenu");
+        
+        showMenu.addEventListener("click", function() {
+            nav.classList.add("show");
+        });
+
+        hideMenu.addEventListener("click", function (){
+            nav.classList.remove("show");
+        });
+    </script>
 </body>
 </html>
