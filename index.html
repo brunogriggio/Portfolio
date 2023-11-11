@@ -19,25 +19,42 @@
         <a href="https://github.com/brunogriggio" target="_blank">
             <button>GitHub</button>
         </a>
-        <div id="lista_contato">
+        <!-- <div id="lista_contato">
             <input id="showMenu" type="button" value="Entre em contato">
         </div>
         <div id="nav">
             <input id="hideMenu" type="button" value="fechar">
-        </div>
-
-        <!-- <ul style="color: white;">
-            <button class="btn_contato">Entre em contato
-                <li>awqui</li>
-                <span class="material-symbols-outlined md-48">arrow_drop_down</span>
-            </button>
-        </ul> -->
+        </div> -->
+        <button id="show-or-hide" class="btn_contato">Entre em contato
+            <span class="material-symbols-outlined md-48">arrow_drop_down</span>
+        <ul class="container">
+            <li>wattsApp</li>
+            <li>Email</li>
+        </ul></button>
         
         <div>
             <img src="imagens/1692385560047.jpg" alt="Imagem de perfil" class="img_perfil">
         </div>
+        <div class="about">
+            <h1 class="titulo_sobre">Sobre mim</h1>
+            <p></p>
+        </div>
+
+
     </header>
     <script>
+        var btn = document.querySelector('#show-or-hide');
+        var container = document.querySelector('.container');
+
+        btn.addEventListener('click', function() {
+            if(container.style.display === 'block') {
+                container.style.display = 'none';
+            } else {
+                container.style.display = 'block';
+            }
+        });
+    </script>
+    <!-- <script>
         lista_botao = [watts, Email]
             console.log(lista_botao);
         var nav = document.getElementById("nav");
@@ -51,6 +68,6 @@
         hideMenu.addEventListener("click", function (){
             nav.classList.remove("show");
         });
-    </script>
+    </script> -->
 </body>
 </html>

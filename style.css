@@ -76,6 +76,30 @@ button{
 #nav.show {
     left: 0px;
 }
+
+.container{
+    position: absolute;
+    background-color: #7e7aeb;
+    color: #ffffff;
+    top: 38px;
+    text-align: center;
+    display: none;
+    width: 156px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.video{
+
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 7px;
+    text-decoration: underline;
+}
   
 
 .btn_contato{
@@ -87,4 +111,8 @@ button{
     position: absolute;
     left: 125px;
     top: 3px;
+}
+
+.titulo_sobre{
+    color: #ffffff;
 }
