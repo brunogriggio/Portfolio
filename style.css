@@ -46,22 +46,83 @@ div.imagem_e_info{
     display: flex;
     position: absolute;
     margin: 10px;
-    top: 180px;
-    border: 2px solid black;
-    font-family: 'Playfair Display', serif;
+    top: 148px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    /* border: 2px solid black; */
+    /* font-family: 'Playfair Display', serif; */
 }
 
 div>img.imagem_div{
-    width: 350px;
+    width: 346px;
 }
 
 div#info_apresentacao{
-    background-color: #bdc0e8;
+    background-color: #dbe3ea;
     float: right;
-    width: 350px;
+    width: 247px;
+    font-family: 'Playfair Display', serif;
 }
 
 h1.txt_nome{
+    position: relative;
+    text-align: center;
+    top: 200px;
     font-weight: lighter;
+    font-family: 'Playfair Display', serif;
+}
+
+p.text_prof{
+    position: relative;
+    text-align: center;
+    top: 210px;
+    font-size: 15px;
+    color: #808080;
+}
+
+p.txt_bem-vindo{
+    position: relative;
+    text-align: center;
+    top: 100px;
+    /* font-size: medium; */
+    color: black;
+    font-family: open sans;
+}
+
+div.caixa_texto{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    width: 56%;
+    left: 50%;
+    flex-direction: column;
+    transform: translate(-50%, -0%); 
+}
+
+h1.about{
+    font-family: 'Playfair Display';
+    font-size: 28px;
+    font-weight: 500;
+    padding: 18px;
+    margin-top: 20px;
+}
+
+p.info_about{
+    margin-bottom: 32px;
+    font-family: open sans;
+    font-size: 18px;
+}
+
+.projetos{
+    position: relative;
+    text-align: center;
+    top: 200px;
+    margin-top: 24px;
+}
+
+div.projetos>h1{
+    font-weight: 500;
+    font-size: 28px;
 }
 
