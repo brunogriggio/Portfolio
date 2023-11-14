@@ -126,3 +126,18 @@ div.projetos>h1{
     font-size: 28px;
 }
 
+div.imagens_projetos{
+    display: flex;
+    justify-content: center;
+}
+
+div>img.img_site-informatica{
+    display: flex;
+    width: 250px;
+    margin-right: 86px;
+    margin-top: 36px;
+    border: 2px solid #f1efea;
+    box-shadow: 0px 0px 8px 7px #f1efea;
+    transform: translate(16%, 0%);
+}
+
