@@ -129,7 +129,6 @@ div.projetos>h1{
 div.imagens_projetos{
     display: flex;
     justify-content: center;
-    overflow: hidden;
 }
 
 div>img.img_site-informatica{
@@ -150,5 +149,29 @@ div>img.img_site-informatica:hover{
     transform: scale(1.1);
 }
 
-.teste2{
+div.contatos{
+    display: flex;
+    top: 340px;
+    height: 272px;
+    background-color: #a09c9c;
+    position: relative;
 }
+
+.span-p_mail{
+   position: absolute;
+   left: 152px;
+   top: 120px;
+   font-size: 22px;
+   background-color: #ffffff;
+   width: 84px;
+   padding: 4px;
+   box-shadow: 0px 0px 5px 1px #dbe3ea;    
+}
+
+div.email_contact{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
