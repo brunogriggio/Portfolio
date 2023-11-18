@@ -8,6 +8,10 @@ header{
     height: 100vh;
 }
 
+header>span.material-symbols-outlined{
+    display: none;
+}
+
 .btn_portfolio{
     display: flex;
     margin: auto;
