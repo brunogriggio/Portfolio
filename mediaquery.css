@@ -1,7 +1,78 @@
-@media screen and (max-widht: 600px){
+@media screen and (max-width: 600px) {
     header>span.material-symbols-outlined{
         display: flex;
-        left: 80px;
+        border: 2px solid black;
+        width: 20px;
+        font-size: 20px;
+        position: absolute;
+        align-items: center;
         color: red;
+    }
+
+
+    div.imagem_e_info{
+        display: flex;
+        position: absolute;
+        margin: 10px;
+        top: 148px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        /* border: 2px solid black; */
+        /* font-family: 'Playfair Display', serif; */
+    }
+    
+    div>img.imagem_div{
+        width: 346px;
+    }
+    
+    div#info_apresentacao{
+        width: 346px;
+        position: absolute;
+        top: 100%;
+        height: 56%;
+    }
+    
+    /* h1.txt_nome{
+        position: relative;
+        text-align: center;
+        top: 200px;
+        font-weight: lighter;
+        font-family: 'Playfair Display', serif;
+    }
+    
+    p.text_prof{
+        position: relative;
+        text-align: center;
+        top: 210px;
+        font-size: 15px;
+        color: #808080;
+    }
+    
+    p.txt_bem-vindo{
+        position: relative;
+        text-align: center;
+        top: 100px;
+        /* font-size: medium; */
+        /* color: black;
+        font-family: open sans; */
+    /* } */
+
+    h1.about{
+        margin-top: 80%;
+    }
+
+    .projetos{
+        top: 210px;
+        margin-top: 112%;
+    }
+
+    div.imagens_projetos{
+        display: grid;
+
+    }
+
+    div>img.img_site-informatica{
+        margin-right: 10px;
+        transform: translate(2%, 0%);
     }
 }
