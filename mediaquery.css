@@ -59,4 +59,43 @@
         margin-right: 10px;
         transform: translate(2%, 0%);
     }
+
+    h1.contact_alt{
+        position: absolute;
+        right: 133px;
+    }
+
+    a.link_email, .link_fone{
+        color: #4f4f9f;
+    }
+
+    .span-p_mail{
+        position: relative;
+        
+        margin-top: 103px;
+        right: 12px;
+        font-size: 22px;
+        background-color: #ffffff;
+        width: 88px;
+        padding: 4px;
+        box-shadow: 0px 0px 5px 1px #dbe3ea;    
+     }
+     
+     div.email_contact{
+         text-align: center;
+         margin: auto;
+         margin-top: 20px;
+         color: #ffffff;
+     }
+     
+     .span-p_fone{
+         position: relative;
+         font-size: 22px;
+         background-color: #ffffff;
+         width: 88px;
+         padding: 4px;
+         box-shadow: 0px 0px 5px 1px #dbe3ea;
+         margin-top: 123px;
+         right: 90px;
+     }
 }

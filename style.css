@@ -30,6 +30,11 @@ header>span.material-symbols-outlined{
     text-decoration: none;
     color: inherit;
 }
+
+a{
+    text-decoration: none;
+}
+
 .links-principal{
     display: flex;
     list-style-type: none;
@@ -158,14 +163,29 @@ div.contatos{
     display: flex;
     top: 340px;
     height: 272px;
-    background-color: #a09c9c;
+    background-color: #565555;
     position: relative;
+}
+
+h1.contact_alt{
+    position: absolute;
+    right: 46%;
+    font-family: 'Playfair Display', serif;
+}
+
+a.link_email, .link_fone{
+    color: #4f4f9f;
+}
+
+.p_email, .p_telefone{
+    font-family: open sans, sans-serif;
 }
 
 .span-p_mail{
    position: absolute;
    
-   margin-top: 66px;
+   margin-top: 94px;
+   right: 55%;
    font-size: 22px;
    background-color: #ffffff;
    width: 84px;
@@ -181,13 +201,14 @@ div.email_contact{
 }
 
 .span-p_fone{
-    position: relative;
+    position: absolute;
+    text-align: center;
     font-size: 22px;
     background-color: #ffffff;
     width: 84px;
     padding: 4px;
     box-shadow: 0px 0px 5px 1px #dbe3ea;
-    bottom: 122px;
-    margin-top: 190px;
+    margin-top: 114px;
+    right: 39%;
 }
 
