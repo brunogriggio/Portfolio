@@ -26,13 +26,22 @@ div>span.material-symbols-outlined{
     cursor: pointer;
 }
 
-.a_link{
+.menu_link{
     text-decoration: none;
-    color: inherit;
+}
+
+ul.menu {
+    display: flex;
+    list-style: none;
+    /* text-align: center; */
+    justify-content: center;
+    font-size: 19px;
+    /* color: #dbe3ea; */
 }
 
 a{
     text-decoration: none;
+    color: #000000;
 }
 
 .links-principal{
@@ -42,13 +51,13 @@ a{
     font-family: 'Playfair Display', serif;
 }
 
-li.menu{
+li.menu-item{
     padding-inline: 20px;
     cursor: pointer;
     padding-top: 26px;
 }
 
-li.menu:hover{
+a:hover{
     color: #7e7aeb;
 }
 
