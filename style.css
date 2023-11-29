@@ -8,7 +8,7 @@ header{
     height: 100vh;
 }
 
-header>span.material-symbols-outlined{
+div>span.material-symbols-outlined{
     display: none;
 }
 

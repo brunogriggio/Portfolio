@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <link rel="stylesheet" href="mediaquery.css">
     <!-- Abaixo, fonte do icone de flecha pra baixo -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -17,21 +18,54 @@
 <body>
     <header>
         <a href="#portfolio" class="a_link"><button class="btn_portfolio">Portfólio</button></a>
-        <span class="material-symbols-outlined" onclick="clickMenu()">menu</span>
-        <ul class="links-principal">
-            <a href="#inicial" class="a_link">
-                <li class="menu">Página inicial</li>
-            </a>
-            <a href="https://github.com/brunogriggio" target="_blank" class="a_link">
-                <li class="menu">GitHub</li>
-            </a>
-            <a href="" target="_blank" class="a_link">
-                <li class="menu"><a href="documentos/curriculo_bruno_griggio.pdf" download="curriculo_bruno_griggio" type="application/pdf" target="_blank" class="a_link">Curriculo</a></li>
-            </a>
-            <a href="#contact" class="a_link">
-                <li class="menu">Contato</li>
-            </a>
-        </ul>
+
+        <!-- <div class="container">
+            <div class="hamburguer">
+                <div class="line" id="line1"></div>
+                <div class="line" id="line2"></div>
+                <div class="line" id="line3"></div>
+            </div>
+
+            <aside class="sidebar">
+                <nav>
+                    <ul class="links-principal">
+                        <a href="#inicial" class="a_link">
+                            <li class="menu">Página inicial</li>
+                        </a>
+                        <a href="https://github.com/brunogriggio" target="_blank" class="a_link">
+                            <li class="menu">GitHub</li>
+                        </a>
+                        <a href="" target="_blank" class="a_link">
+                            <li class="menu"><a href="documentos/curriculo_bruno_griggio.pdf" download="curriculo_bruno_griggio" type="application/pdf" target="_blank" class="a_link">Curriculo</a></li>
+                        </a>
+                        <a href="#contact" class="a_link">
+                            <li class="menu">Contato</li>
+                        </a>
+                    </ul>
+                </nav>
+            </aside>
+        </div> -->
+
+        <div class="container">
+
+            <div class="hamburger">
+                <div class="line" id="line1"></div>
+                <div class="line" id="line2"></div>
+                <div class="line" id="line3"></div>
+            </div>
+            
+            <aside class="sidebar">
+                <nav>
+                    <ul class="menu">
+                        <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+                    </ul>
+                </nav>
+            </aside>
+        </div>
     </header>
     <div class="imagem_e_info">
         <img src="imagens/1692385560047.jpg" alt="imagem de uma pessoa" class="imagem_div">
@@ -89,5 +123,9 @@
             itens.style.display = 'block'
           }
         }
+        
+        document.querySelector(".hamburger").addEventListener("click", () =>
+        document.querySelector(".container").classList.toggle("show-menu")
+        ); 
       </script>
 </body>
