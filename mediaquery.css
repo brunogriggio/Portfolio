@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+ @media screen and (max-width: 600px) { /*telas pequenas */
     div>span.material-symbols-outlined{
         display: flex;
         width: 20px;
@@ -40,16 +40,34 @@
     }
 
     h1.about{
-        margin-top: 80%;
+        margin-top: 83%;
+    }
+
+    .linka {
+        position: relative;
+        padding: 10px;
+        font-size: 19px;
+        width: 90px;
+        top: -50%;
+        right: 0px;
+        left: 72px;
+        right: none;
+        cursor: pointer;
     }
 
     .projetos{
-        top: 210px;
-        margin-top: 112%;
+        margin-top: 120%;
+    }
+
+    div.projetos>h1{
+        background-color: #03518d;
+        color: white;
+        padding: 10px;
     }
 
     div.imagens_projetos{
         display: grid;
+        margin-left: 0px;
 
     }
 
@@ -60,7 +78,8 @@
 
     h1.contact_alt{
         position: absolute;
-        right: 133px;
+        right: 50%;
+        transform: translate(50%, 0%);
     }
 
     a.link_email, .link_fone{
@@ -196,3 +215,4 @@
 
     
 }
+

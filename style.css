@@ -133,6 +133,38 @@ p.info_about{
     font-size: 18px;
 }
 
+.a-botao{
+    width: 0px;
+}
+
+.linka {
+    position: relative;
+    padding: 8px;
+    font-size: 18px;
+    width: 90px;
+    top: 96%;
+    cursor: pointer;
+    right: 218px;
+    background-color: #0e89e6;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+
+
+    transform: translate(16%, 0%);
+    cursor: pointer;
+    -webkit-transition: -webkit-transform .8s ease;
+    transition: transform .8s ease;
+}
+
+.linka:hover{
+    -webkit-transform: scale(0.1);
+    transform: scale(1.1);
+
+    background-color: #0c6ab3;
+    font-size: 19px;
+}
+
 .projetos{
     position: relative;
     text-align: center;
@@ -148,24 +180,16 @@ div.projetos>h1{
 div.imagens_projetos{
     display: flex;
     justify-content: center;
+    
 }
 
 div>img.img_site-informatica{
     display: flex;
     width: 250px;
-    margin-right: 86px;
+    margin-right: 23px;
     margin-top: 36px;
     border: 2px solid #f1efea;
     box-shadow: 0px 0px 8px 7px #f1efea;
-    transform: translate(16%, 0%);
-    cursor: pointer;
-    -webkit-transition: -webkit-transform .8s ease;
-    transition: transform .8s ease;
-}
-
-div>img.img_site-informatica:hover{
-    -webkit-transform: scale(0.1);
-    transform: scale(1.1);
 }
 
 div.contatos{
