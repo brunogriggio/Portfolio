@@ -209,7 +209,7 @@
     }
     
     .menu-link:hover{
-        color: rgb(0, 255, 255);
+        color: #00dbff;
         transition: color .7s;
     }
 

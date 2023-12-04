@@ -149,7 +149,7 @@ p.info_about{
     color: #ffffff;
     border: none;
     border-radius: 12px;
-
+    font-family: 'playfair display';
 
     transform: translate(16%, 0%);
     cursor: pointer;
