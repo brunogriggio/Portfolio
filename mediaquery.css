@@ -12,16 +12,16 @@
         transform: translate(-53%, 0%);
     }
     
-    div>img.imagem_div{
+    /* div>img.imagem_div{
         width: 346px;
-    }
+    } */
     
     div#info_apresentacao{
         width: 346px;
         position: absolute;
+        float: none;
         top: 100%;
         height: 56%;
-        background-color: #dbe3ea;
     }
     
      h1.txt_nome{
@@ -68,7 +68,6 @@
     div.imagens_projetos{
         display: grid;
         margin-left: 0px;
-
     }
 
     div>img.img_site-informatica{
